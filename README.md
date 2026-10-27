@@ -1,5 +1,7 @@
 # Shared Moment
 
+[Open Shared Moment](https://shared-moment-liart.vercel.app) · [Public source repository](https://github.com/annieko-sys/shared-moment)
+
 Shared Moment is a simple, mobile-first PWA class project about making social events feel easier to navigate. This version is an **in-person activity tool**, not a live matching service. Guests can choose a conversation situation, take turns answering a question, compare private “this or that” choices on one phone, or try a tiny mission together. Each activity has multiple rounds and can be skipped. It also has Home, Explore, Play, and About screens. There is no sign-in, event creation, database, messages, analytics, or personal-data form. Activity state lives only in the current browser tab's memory and resets on refresh.
 
 ## Run locally
