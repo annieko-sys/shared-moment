@@ -1,0 +1,34 @@
+.situation-picker{border:0;margin:26px 0 18px;padding:0;min-width:0}
+.activity-picker{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:25px 0 17px}
+.activity-tab{min-height:55px;border:2px solid transparent;border-radius:15px;padding:7px;background:#dce8f2;color:#62565b;font:400 16px/1.1 Jua,system-ui,sans-serif}
+.activity-tab:nth-child(2){background:#e8ddf2}.activity-tab:nth-child(3){background:#ffe3d9}
+.activity-tab.active{border-color:#735380;box-shadow:0 0 0 2px #fffaf4 inset}
+.situation-picker legend{font:400 20px Jua,system-ui,sans-serif;color:#62565b;margin-bottom:12px}
+.situation-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.situation-option{min-height:98px;border:2px solid transparent;border-radius:18px;padding:13px;text-align:left;background:#dce8f2;color:#62565b;display:flex;flex-direction:column;gap:6px;transition:transform .18s,border-color .18s}
+.situation-option:nth-child(2){background:#e8ddf2}.situation-option:nth-child(3){background:#ffe3d9}
+.situation-option:hover{transform:translateY(-2px)}
+.situation-option.selected{border-color:#735380;box-shadow:0 0 0 2px #fffaf4 inset}
+.situation-option strong{font:400 17px/1.15 Jua,system-ui,sans-serif}
+.situation-option span{font:400 12px/1.35 Yaldevi,system-ui,sans-serif}
+.prompt-panel{background:#e8ddf2;color:#62565b;min-height:300px;padding:32px 25px}
+.activity-panel{gap:0}
+.prompt-panel blockquote{font:400 clamp(27px,4vw,37px)/1.18 Jua,system-ui,sans-serif;letter-spacing:0;margin:20px 0 27px}
+.prompt-count{font:600 11px Yaldevi,system-ui,sans-serif;letter-spacing:0}
+.turn-label{margin:20px 0 0;color:#704e7d;font:600 14px Yaldevi,system-ui,sans-serif}
+.prompt-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;width:100%}
+.prompt-actions .app-button{min-height:46px}
+.choice-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;width:100%;margin:0 0 20px}
+.choice-options button{min-height:72px;border:2px solid transparent;border-radius:16px;background:#fff5e6;color:#62565b;padding:12px;font:400 17px/1.2 Jua,system-ui,sans-serif}
+.choice-options button:hover{border-color:#735380}
+.choice-reveal{width:100%;text-align:left;margin:0 0 18px}
+.choice-reveal p{display:flex;gap:10px;margin:0 0 8px;padding:12px;border-radius:13px;background:#fff5e6;font:400 15px/1.3 Yaldevi,system-ui,sans-serif}
+.choice-reveal strong{min-width:75px}.choice-reveal span{display:block;text-align:center;font:400 15px Jua,system-ui,sans-serif;margin-top:12px}
+.app-button.light{background:#fff5e6;color:#62565b}
+.pair-switch{display:flex;align-items:center;gap:14px;min-height:70px;background:#fffaf4;border:1px solid #e8ddf2;border-radius:17px;padding:12px 17px;margin:18px 0 0;color:#62565b;cursor:pointer}
+.pair-switch input{width:22px;height:22px;flex:none;accent-color:#735380;cursor:pointer}
+.pair-switch span{display:grid;gap:2px}.pair-switch strong{font:400 17px Jua,system-ui,sans-serif}.pair-switch small{font:400 12px Yaldevi,system-ui,sans-serif}
+.pair-switch:focus-within{outline:3px solid #674191;outline-offset:3px}
+.privacy-note{margin-bottom:20px}
+@media(max-width:650px){.play-screen .page-title{font:400 34px/1.02 Jua,system-ui,sans-serif;letter-spacing:0;margin:4px 0 7px}.play-screen .page-subtitle{font-size:14px;line-height:1.25;margin:0}.activity-picker{gap:6px;margin:16px 0 12px}.activity-tab{font-size:13px;min-height:51px;padding:6px}.situation-picker{margin:12px 0 15px}.situation-picker legend{font-size:17px;margin-bottom:8px}.situation-options{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.situation-option{min-height:64px;padding:8px;align-items:center;justify-content:center;text-align:center}.situation-option strong{font-size:13px}.situation-option span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.prompt-panel{min-height:260px;padding:20px 18px}.prompt-panel blockquote{font-size:29px;margin:15px 0 18px}.prompt-actions .app-button{font-size:13px;padding:10px 12px}.pair-switch{margin-top:15px}.choice-options button{font-size:14px;min-height:62px}}
+@media(prefers-reduced-motion:reduce){.situation-option{transition:none}.situation-option:hover{transform:none}}

@@ -1,0 +1,63 @@
+@font-face{font-family:Jua;src:url('/fonts/jua.ttf') format('truetype');font-display:swap}
+@font-face{font-family:Yaldevi;src:url('/fonts/yaldevi-regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Yaldevi;src:url('/fonts/yaldevi-semibold.ttf') format('truetype');font-weight:600;font-display:swap}
+.figma-shell{background:#fff5f7;color:#62565b;font-family:Yaldevi,system-ui,sans-serif}
+.figma-shell .app-main-area{background:#fff5f7}
+.figma-shell .app-sidebar{background:#eee5f4}
+.figma-shell .app-topbar{background:#fff5f7;border-color:#ded5d8}
+.figma-shell .app-status{position:relative;isolation:isolate;width:75px;height:27px;display:flex;align-items:center;justify-content:center;gap:6px;border:0;border-radius:0;padding:0;background:url('/figma/home/imgRectangle3.svg') center/75px 27px no-repeat;color:#62565b;font:600 12px Yaldevi,system-ui,sans-serif}
+.figma-shell .app-status img{width:15px;height:11px}
+.figma-header-line{position:absolute;bottom:0;left:0;width:100%;height:1px;object-fit:fill;pointer-events:none}
+.figma-shell .app-topbar{position:relative}
+.figma-shell .mobile-brand{font:400 15px Jua,system-ui,sans-serif;color:#62565b}
+.figma-shell .mobile-brand .logo{width:33px;height:33px;border-radius:9px;background:#e99584;transform:rotate(-18deg)}
+.figma-shell .mobile-brand .logo img{transform:rotate(5deg);width:22px;height:24px}
+.figma-home .page-kicker{font:400 11px/19px Yaldevi,system-ui,sans-serif;letter-spacing:0;color:#62565b}
+.figma-home .page-title{font:400 30px/1.08 Jua,system-ui,sans-serif;letter-spacing:0;color:#62565b;margin:-4px 0 2px}
+.greeting-stars{display:inline-block;width:24px;height:24px;vertical-align:middle;margin-left:2px}
+.figma-home .page-subtitle{font:400 15px/1.25 Yaldevi,system-ui,sans-serif;color:#62565b;margin:4px 0 0}
+.figma-home .welcome-card{position:relative;display:block;box-sizing:border-box;width:calc(100% - 16px);height:368px;min-height:0;margin:29px 8px 0;padding:0;background:#e8ddf2;border-radius:27px;overflow:hidden}
+.figma-home .welcome-copy{position:absolute;left:34px;top:27px;right:20px;z-index:2;align-self:auto}
+.figma-home .card-eyebrow{display:block;font:400 11px/1.1 Yaldevi,system-ui,sans-serif;letter-spacing:0;color:#62565b}
+.figma-home .welcome-copy h2{font:400 25px/24px Jua,system-ui,sans-serif;letter-spacing:0;color:#62565b;max-width:257px;margin:12px 0 0}
+.figma-home .welcome-copy p{font:400 13px/13px Yaldevi,system-ui,sans-serif;color:#62565b;max-width:220px;margin:15px 0 0}
+.figma-prompt-button{position:relative;isolation:isolate;width:150px;height:41px;min-height:41px;border:0;border-radius:9px;margin-top:23px;padding:0 17px 0 22px;background:transparent;color:#62565b;display:flex;justify-content:space-between;font:400 13px Jua,system-ui,sans-serif;transform:none}
+.figma-prompt-button .button-fill{position:absolute;inset:0;width:150px;height:41px;z-index:-1}
+.figma-prompt-button>span,.figma-prompt-button>img:last-child{position:relative;z-index:1}
+.figma-prompt-button>img:last-child{width:22px;height:18px}
+.figma-art{position:absolute;right:0;bottom:0;width:352px;height:368px;z-index:1;pointer-events:none}
+.figma-art-layer{position:absolute;display:block;max-width:none;object-fit:fill}
+.cloud-pink{left:197.5px;top:209px;width:154.5px;height:131px}
+.cloud-pink-edge{left:351.5px;top:254px;width:55px;height:98px}
+.cloud-floor-right{left:231px;top:380px;width:209px;height:35px}
+.cloud-mask{left:231px;top:272px;width:121px;height:96px}
+.cloud-right{left:352px;top:286px;width:88px;height:93px}
+.cloud-blue{left:77px;top:261px;width:209px;height:107px}
+.cloud-floor-left{left:80px;top:380px;width:204px;height:24px}
+.deco-small-star{left:278px;top:288px;width:15px;height:14px}
+.deco-star{left:317px;top:249px;width:24px;height:24px}
+.deco-heart{left:244px;top:319px;width:24px;height:24px}
+.deco-snowflake{left:313px;top:308px;width:24px;height:24px}
+.deco-headphones{left:199px;top:340px;width:17px;height:17px}
+.deco-moon{left:220px;top:240px;width:64px;height:63px}
+.deco-sun{left:206px;top:277px;width:35px;height:35px}
+.figma-home .section-row{margin:38px 8px 34px;display:block}
+.figma-home .section-row h2{font:400 20px/22px Jua,system-ui,sans-serif;letter-spacing:0;color:#62565b}
+.figma-home .quick-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:42px;margin:0 8px}
+.figma-home .figma-quick-card{position:relative;display:block;width:100%;height:128px;min-height:128px;border-radius:17px;padding:0;color:#62565b}
+.figma-home .figma-quick-card.blue{background:#dce8f2}
+.figma-home .figma-quick-card.purple{background:#e8e0f1}
+.figma-quick-card .quick-figma-icon{position:absolute;left:12px;top:9px;width:30px;height:30px}
+.figma-quick-card strong{position:absolute;left:12px;top:58px;font:400 14px/1.1 Jua,system-ui,sans-serif;letter-spacing:0;white-space:nowrap}
+.figma-quick-card>span{position:absolute;left:12px;bottom:16px;font:400 9px/1.2 Yaldevi,system-ui,sans-serif;white-space:nowrap;color:#796b72}
+.figma-quick-card .quick-arrow{position:absolute;right:16px;bottom:13px;width:17px;height:17px}
+.figma-shell .bottom-nav{height:52px;min-height:52px;background:#fdf9f3;border:0;box-shadow:none;padding:0 25px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}
+.figma-shell .bottom-item{position:relative;z-index:1;min-width:0;min-height:39px;height:39px;margin-top:5px;border-radius:9px;padding:1px 0;background:transparent;color:#62565b;gap:0;font:600 9px/1 Yaldevi,system-ui,sans-serif;text-transform:uppercase}
+.figma-shell .bottom-item.active{background:#f8dfe9;color:#62565b}
+.figma-shell .bottom-item img{width:24px;height:24px;object-fit:contain}
+.figma-nav-background{position:absolute;inset:0;width:100%;height:52px;object-fit:fill;pointer-events:none}
+.figma-nav-line{position:absolute;left:0;width:100%;height:1px;object-fit:fill;pointer-events:none}
+.figma-nav-line.top{top:0}.figma-nav-line.bottom{bottom:0}
+@media(max-width:650px){.figma-shell .app-topbar{height:56px;padding:0 17px}.figma-shell .app-content{width:100%;padding:29px 17px 92px}.figma-shell .mobile-brand{display:flex}.figma-shell .bottom-nav{display:grid}.figma-home .welcome-card{max-width:none}}
+@media(max-width:380px){.figma-home .quick-grid{gap:20px}.figma-home .figma-quick-card strong{font-size:12px}.figma-home .figma-quick-card>span{font-size:8px}.figma-home .welcome-copy{left:25px}.figma-home .welcome-copy h2{max-width:220px;font-size:23px;line-height:23px}.figma-home .welcome-copy p{max-width:200px}.figma-art{right:-25px}.figma-shell .bottom-nav{padding:0 12px}}
+@media(min-width:651px){.figma-shell .bottom-nav{display:none}.figma-shell .app-content{padding-top:43px}.figma-home .welcome-card{height:368px}.figma-home .welcome-copy h2{max-width:420px;font-size:36px;line-height:1.08}.figma-home .welcome-copy p{max-width:330px;font-size:16px;line-height:1.35}.figma-home .figma-quick-card{height:150px}.figma-home .figma-quick-card strong{font-size:18px}.figma-home .figma-quick-card>span{font-size:12px}.figma-home .section-row h2{font-size:24px}}
